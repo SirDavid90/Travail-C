@@ -1,0 +1,46 @@
+1/ La SDL2 est un ensemble de dossiers regroupent des fichier de codes 
+	(en ce cas du C) qui facilite la programmation d'éléments visuel et
+	de calcules pour des programmes plus compliquées (Comme des jeux vidéos)
+
+2/ La SDL2 peux permettre de faire :
+	- Donne une douzaines de fichiers.h avec des éléments de programmations
+	(Calcules, Fonctions...)
+	- Aide à la réalisation de jeux en 2D (Platforme, Tir, Aventure, Text...)
+	- Des dessins sur l'écran, capable de les affichers
+
+3/ SDL2 Fonctionne sur :
+	- Windows CE
+	- BeOS (SDL 1.2)
+	- Mac OS (SDL 1.2)
+	- OS/2 (SDL 1.2)
+  (UNIX)
+	- Mac OS X
+	- Linux
+	- Android
+	- BSD (FreeBSD, NetBSD, OpenBSD, BSD/OS)
+	- Solaris
+	- IRIX
+	- QNX (SDL 1.2)
+
+4/ Installation :
+	- Il faut se rendre sur le site de SDL (http://www.libsdl.org/index.php)
+	- Se rendre sur la page des sorties des versions SDL (Download - SDL Releases)
+	- Après il faut téléchanger la dernière version de la bibliothèque disponible
+	(Il y as Source code pour la manipulation du code lui-même, Developement Libraries ce qui donne les versions pour développeurs (et nous aussi) et Runtime Binaries)
+	(Le fichier "SDL2-2.0.1-win32-x86.zip" correspond à une version 32 bits contrairement à l'archive "SDL2-2.0.1-win32-x64.zip" qui correspond à une version 64 bits)
+	(Pour des raisons de comptabilité, on télécharger la version 32 bits)
+	- Une fois le téléchargement fini, extraire les fichiers (au préalable dans un dossier) dans un dossier proche de ceux avec lesquelles ont veut utiliser pour travailler sur notre code
+
+   Configuration :
+	- Lors de la création d'un projet (Codeblock par exemple), il faut créer un "Empty Project" pour y associer les dossiers SDL2 (Ne pas faire un projet "SDL" ce dernier utilisera une version 1.2)
+	- Cliquer sur "projet" puis "Build option" , onglet "Linker settings" pour pouvoir ajouter (ou lier) les fichiers "libSDL2main.a" et "libSDL2.dll.a" sur Link libraries
+	(Vous pouvez choisir de "Keep the path relative" si vous le désirez)
+	- Puis sur "Other link option", veuillez ajouter "-lmingw32"
+	- Allez sur "Search directories" et ajoutez le dossier "include" et "lib"
+	- Pour finir, déplacer le fichier SDL2.dll dans le dossier avec le reste de votre projet
+	(Vous pouvez également faire une arboréscence du projet si vous souhaitez le partager en ligne)
+
+5/ La SDL2 apporte de nombreuses nouveautés et est bien plus performante que la SDL1(1.2)
+
+6/ Pour utiliser la SDL2 dans le projet, il faut l'initialiser;
+	- Ajouter <SDL2/SDL.h>

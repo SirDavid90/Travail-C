@@ -1,0 +1,26 @@
+//Quand le jeu commemence, le joueur lui est demandé de Répondre O ou N, sil il
+//répond autre chose, faire répéter la boucle (question)
+
+	Procédure Main
+écrire ("Bonjour, cher utilisateur !\n");
+écrire ("Voudriez-vous jouer au Pendu ? O/N\n");
+
+	Boucle Tant que //réponse n'est pas un caractère O ou N, répète la boucle
+écrire ("Veuillez donner un caractère valide.\n");
+écrire ("Voudriez-vous jouer au Pendu ? O/N\n");
+lire (clavier input);
+
+Si O (On continue programme)
+Sinon (Fermer le programme)
+
+//Initialisation du programme
+
+/*But : 1 utilisateur saisie Char
+    2 : rentre dans une boucle -> i = 0; i<7; i++
+    3 Test SI motcachée[i] = InputChar
+    4 remplacer un caractère du TabCachette par un caractère du mot tabMotCachée
+    5 Sinon erreur++ */
+
+
+Si erreur = 6 -> Vous avez perdu
+Si MotCachée[i] = Cachette[i] -> Victoire !

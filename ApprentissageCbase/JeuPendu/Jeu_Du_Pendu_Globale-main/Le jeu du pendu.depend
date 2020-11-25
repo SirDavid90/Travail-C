@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605803612 source:d:\home\documents\ludus f2\algo\nouveau dossier\lejeudupendu\le jeu du pendu\main.c
+	<stdio.h>
+	<stdlib.h>
+

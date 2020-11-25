@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1605692543 source:d:\projet_codeblocks\programmation_c_cycle1_f2\programmation_c\exercices\jeu de l'oie\jeu_de_loie_deux\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1605696329 source:c:\users\djame\desktop\jeu_de_loie_deux\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1605697627 source:c:\users\franc\desktop\cours\algo\jeu_de_loie_deux\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
