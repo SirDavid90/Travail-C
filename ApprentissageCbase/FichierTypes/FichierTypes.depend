@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1606491085 source:c:\users\sir david\desktop\dossier academie\dossier devoirs et travail d'academie\algorithmes - git - hub kraken\repository-git\travail-c\apprentissagecbase\fichiertypes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+
+1606484711 source:c:\users\sir david\desktop\dossier academie\dossier devoirs et travail d'academie\algorithmes - git - hub kraken\repository-git\travail-c\apprentissagecbase\fichiertypes\exercisepassport.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+
+1606482810 source:c:\users\sir david\desktop\dossier academie\dossier devoirs et travail d'academie\algorithmes - git - hub kraken\repository-git\travail-c\apprentissagecbase\fichiertypes\exercisefichierbinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+

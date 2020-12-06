@@ -43,4 +43,20 @@
 5/ La SDL2 apporte de nombreuses nouveautés et est bien plus performante que la SDL1(1.2)
 
 6/ Pour utiliser la SDL2 dans le projet, il faut l'initialiser;
-	- Ajouter <SDL2/SDL.h>
+	- Ajouter <SDL2/SDL.h> pour initialiser la librarie de fonctione
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

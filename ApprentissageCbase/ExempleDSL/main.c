@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     } else {
         pWindow=SDL_CreateWindow("A SDL2 Window", 640, 480, WINDOW_WIDTH,WINDOW_HEIGHT, SDL_WINDOW_SHOWN);}  //X, Y... Le reste ?
-        SDL_Dealy(4000);
+        SDL_Delay(4000);
         SDL_Quit();
 
     if (pWindow){
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     }
 
     //Set Color
-    SDL_SetRendererDrawColor(pRenderer, 205, 92, 92, SDL_ALPHA_OPAQUE);
+    SDL_SetRenderDrawColor(pRenderer, 205, 92, 92, SDL_ALPHA_OPAQUE);
 
     //Clear Render
     SDL_RenderClear(pRenderer);
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     //Update render
     SDL_RenderPresent(pRenderer);
 
-    SDL_Dealy(4000);
+    SDL_Delay(4000);
     if (pRenderer){
         SDL_DestroyRenderer(pRenderer);
     }
