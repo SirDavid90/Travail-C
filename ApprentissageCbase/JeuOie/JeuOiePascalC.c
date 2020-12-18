@@ -44,7 +44,7 @@ int Recul=0;
 	for
 		printf ("Veuillez lancer vos dées\n");							// Début de la boucle avec l'INPUT de l'utilisateur
 		scanf JetDeDees;
-	while (JetDeDees < VALMIN, or VALMAX);
+	while (JetDeDees < VALMIN, || VALMAX);
 
 		Emplacement = Emplacement &JetDeDees;
 
