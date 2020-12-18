@@ -39,7 +39,7 @@ int DeplacementMonstre();
 //D'autre valeurs
 short RetourVersInitiateur; //A utiliser pour retourner vers le début du main, pour relancer une nouvelle partie, mais comment faire ?
 
-//Les pointeurs
+//Les pointeurs     //(Doivent être nombreux, il faut reprendre un maximum de valeurs de ses fonctions
 short P_NombrePisteur;
 
 
@@ -175,7 +175,10 @@ int TourDeJeu()
     int DeplacementMonstre()
     {
         //Je suppose qu'il se déplace aléatoirement au début du jeu, jusqu'a qu'il trouve une trace fraîche, puis il se met à la suivre
-        /*FonctionRandom, 1~4
+
+        /*Code qui permet de scanner les traces autour du pion (Monstre et Pisteur) (prioritaire);
+
+        FonctionRandom, 1~4
             if Résultat Random == 1
             va dans direction haut
 
@@ -188,7 +191,7 @@ int TourDeJeu()
             else Résultat Random == 4
             va dans direction gauche
 
-          Code qui permet de scanner les traces autour du pion (Monstre et Pisteur)*/
+            */
     }
 
     int GameOver()
